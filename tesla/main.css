@@ -1,0 +1,158 @@
+/*#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('tesla/img/Unknown.jpeg') no-repeat;
+  background-size: cover;
+}*/
+
+/**{
+  border: black 1pt solid;
+}*/
+
+
+html {
+  background: url('img/Unknown.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Gotham Medium, "M Hei PRC W45", "M Hei HK W42", "M Hei HK W40", "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container{
+  margin: auto;
+  width: 1100px;
+}
+
+#logo img {
+  width: 150px;
+  float: left;
+  position: absolute;
+  margin-top: -65px;
+  margin-left: -20px;
+}
+
+#left-nav-buttons{
+  float: left;
+  margin-left: 150px;
+}
+
+#left-nav-buttons > .nav-button{
+  margin-right: 19px;
+  font-weight: bold;
+}
+
+#right-nav-buttons > .nav-button{
+  margin-left: 19px;
+}
+
+#right-nav-buttons{ 
+  margin-left: 600px;
+  font-size: 0.85em;
+}
+
+.nav-button {
+  font-size: 0.8em;
+  color: white;
+  text-decoration: none;
+  
+
+}
+
+#content{
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000;
+}
+
+#content #banner{
+  
+  color: white;
+  font-size: 2.65em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  text-align: center;
+  font-family: 'Biryani', sans-serif;
+}
+
+#content > #video-link {
+  margin-top: 4px;
+  margin-bottom: 11px;
+  text-align: center;
+}
+
+#video-link > a {
+  color: white;
+
+}
+
+#buttons {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.button{
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: rgba(0,0,0, 0.5);
+  color: white;
+  padding: 10px 24px;
+  max-width: 30px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+}
+
+#buttons a {
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.button:hover {
+  border: 1px solid white;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 1000px;
+  height: 30px;
+  padding-left: 174px;
+}
+
+.footer-link {
+  color: #dedede;
+  text-decoration: none;
+  margin-left: 39px;
+  font-size: .75em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
